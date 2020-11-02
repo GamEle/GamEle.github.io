@@ -49,6 +49,8 @@ header {
     height: 720px;
     font-family: 'Proxima Nova';
     background: #2c3e50;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 .s1-1 {
@@ -77,6 +79,8 @@ header {
     width: 100%;
     font-family: 'Proxima Nova';
     background: white;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 .s2-1 {
@@ -115,6 +119,8 @@ header {
     width: 100%;
     font-family: 'Proxima Nova';
     background: #eeeeee;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 .s3-1 {
@@ -167,6 +173,8 @@ header {
     width: 100%;
     font-family: 'Proxima Nova';
     background: white;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 .s4-1 {
@@ -261,6 +269,8 @@ header {
     width: 100%;
     font-family: 'Proxima Nova';
     background: #eeeeee;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 .s5-1 {
