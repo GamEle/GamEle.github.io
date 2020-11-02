@@ -1,2 +1,0 @@
-# GamEle.github.io
-Хостинг
