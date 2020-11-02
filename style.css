@@ -227,6 +227,13 @@ header {
 
 /* FOOTER */
 
+footer {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
 .footer-menu {
     padding-top: 53px;
     text-align: center;
