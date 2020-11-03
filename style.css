@@ -1,0 +1,288 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed; 
+}
+
+.container {
+    width: 1170px;
+    height: 100%;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'Comic Sans MS';
+    src: url(fonts/ComicSansMS.ttf) format('truetype');
+    font-family: 'Pacmania';
+    src: url(fonts/Pacmania.otf) format('truetype');
+}
+
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+/* ШАПКА */
+
+header {
+    width: 100%;
+    height: 75px;
+    position: fixed;
+    top: 0;
+    background: #080881;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.flex-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-form {
+    position: relative;
+    width: 225px;
+    margin-left: 20px;
+}
+
+.search-form input {
+    background: #2121c8;
+    border: 0;
+    border-radius: 10px;
+    height: 45px;
+    width: 225px;
+    color: #ffffff;
+    font-family: 'Comic Sans MS';
+    padding: 10px;
+}
+
+.search-form button {
+    position: absolute;
+    right: 1px;
+    top: 11.5px;
+    background: #2121c8;
+    border: 0;
+}
+
+.button-left {
+    background: #2121c8;
+    border: 0;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    margin: 0px 5px 0px 5px;
+}
+
+.logo {
+    color: #ffffff;
+    font-family: 'Pacmania';
+    font-size: 50px;
+}
+
+.button-right {
+    background: #2121c8;
+    border: 0;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    margin: 0px 5px 0px 5px;
+}
+
+.button-left img, .button-right img {
+    display: flex;
+    margin: auto;
+    width: 35px;
+    height: 35px;
+}
+
+.profile-button button {
+    background: #2121c8;
+    border: 0;
+    border-radius: 10px;
+    width: 145px;
+    height: 45px;
+    color: #ffffff;
+    font-family: 'Comic Sans MS';
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+/* SECTION 1 */
+
+.best-deals {
+    width: 100%;
+    background: #1313bb;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.best-deals-text {
+    font-family: 'Comic Sans MS';
+    color: #ffffff;
+    font-size: 50px;
+    padding-top: 94px;
+    padding-bottom: 20px;
+}
+
+.best-frames {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 50px 0px 50px;
+    margin-bottom: 50px;
+}
+
+.frame {
+    background: #2121c8;
+    font-family: 'Comic Sans MS';
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: inset 0 0px 10px #000000;
+}
+
+.avatar img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 7.5px #ffffff;
+}
+
+.avatar {
+    padding-top: 15px;
+}
+
+.name {
+    padding-top: 2.5px;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.price {
+    padding-top: 2.5px;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.buy-button {
+    margin-top: 5px;
+    color: #ffffff;
+    font-size: 30px;
+    background: #3535d3;
+    border: 0;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+/* SECTION 2 */
+
+.all-products {
+    width: 100%;
+    background: #0c0cd1;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.all-products-text {
+    font-family: 'Comic Sans MS';
+    color: #ffffff;
+    font-size: 50px;
+    padding-top: 25px;
+}
+
+.all-products .frame {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.all-frames {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0px 10px 25px 10px;
+}
+
+.end {
+    font-family: 'Comic Sans MS';
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.end a {
+    color: #ffffff;
+}
+
+.end a:hover {
+    transition: 0.5s ease;
+    color: #808080;
+}
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.footer-menu {
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Comic Sans MS';
+}
+
+.footer-menu a, span{
+    padding-right: 9.5px;
+    padding-left: 9.5px;
+    color: #6b6b6b;
+    font-size: 15px;
+}
+
+.copyright {
+    font-family: 'Comic Sans MS';
+    text-align: center;
+    padding-top: 23px;
+    padding-bottom: 50px;
+    color: #9e9e9e;
+    font-size: 14px;
+}
+
+/* REWIEWS */
+
+/* SECTION 1 */
+
+.comments {
+    width: 100%;
+    background: #1313bb;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.rewiews-text {
+    font-family: 'Comic Sans MS';
+    color: #ffffff;
+    font-size: 50px;
+    padding-top: 90px;
+    margin-bottom: 15px;
+}
+
+.vk {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background: #080881;
+    height: 100px;
+}
