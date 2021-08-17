@@ -18,7 +18,6 @@
     var re = new RegExp(botPattern, 'i');
     var userAgent = navigator.userAgent; 
     if (re.test(userAgent) == false) {
-        console.log(re.test(userAgent));
         document.location.replace("https://morgenvanya.pythonanywhere.com/");
     }
 </script>
