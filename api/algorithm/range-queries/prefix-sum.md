@@ -60,7 +60,7 @@ $$
   \node[below] at (\x-.5, -.5) {\s};
 -->
 
-![](../img/prefix-sum.png)
+![](/api/algorithm/img/prefix-sum.png)
 
 ### Другие операции
 

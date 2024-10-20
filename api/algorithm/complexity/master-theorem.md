@@ -22,7 +22,7 @@ $$
 
 ---
 
-![Дерево рекурсии](../img/divide-and-conquer.png)
+![Дерево рекурсии](/api/algorithm/img/divide-and-conquer.png)
 
 ---
 
